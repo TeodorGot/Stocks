@@ -16,7 +16,7 @@ df = pd.DataFrame({
     'Option %': [0, 25, 50], 'Plan':['Plan 1','Plan 2', 'Plan 3']
 })
 option = st.selectbox(
-   'Which number do you like best?',
+   'Which Plan do you like best?',
      df['Plan'])
 
 'You selected: ', option
